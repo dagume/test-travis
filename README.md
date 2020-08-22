@@ -3,10 +3,6 @@ Single Page Application JavaScript, using the API of Rick and Morty
 
 This project was created with Vanilla JS and focused on a Single Page Application
 
-## **You can view the project in the next URL or [view demo](https://dagume.github.io/rick-and-morty/):**
-
-https://dagume.github.io/rick-and-morty/
-
 ## **Look at me living**
 
 ### **Index**
