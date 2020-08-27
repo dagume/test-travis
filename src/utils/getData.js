@@ -1,4 +1,5 @@
-const API = 'https://rickandmortyapi.com/api/character/';
+//const API = 'https://rickandmortyapi.com/api/character/';
+const API = 'https://my.api.mockaroo.com/trucks.json?key=ed214760';
 
 const getData = async (id) => {
   const apiURL = id ? `${API}${id}` : API;

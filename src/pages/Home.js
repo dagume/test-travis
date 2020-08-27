@@ -4,12 +4,13 @@ const Home = async () => {
   const characters = await getData();
   const view = `
     <div class="Characters">
-      ${characters.results.map(
+      ${characters.map(
         (character) => `
       <article class="Character-item">
-        <a href="#/${character.id}/">
-          <img src="${character.image}" alt="${character.name}">
-          <h2>${character.name}</h2>
+        <a>          
+          <h1>${character.car_make}</h1>
+          <h3>${character.license_plate}</h3>
+          <h3>${character.car_model}</h3>
         </a>
       </article>
       `

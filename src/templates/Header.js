@@ -4,7 +4,7 @@ const Header = () => {
       <div class="Header-logo">
         <h1>
           <a href="/">
-            Ivan, Luis, Oscar y Daniel
+            Trucks-Mockaroo
           </a>
         </h1>
       </div>
@@ -19,6 +19,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
